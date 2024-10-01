@@ -1,0 +1,32 @@
+Collecting FuzzyTM
+  Using cached FuzzyTM-2.0.9-py3-none-any.whl.metadata (7.9 kB)
+Requirement already satisfied: numpy in /home/orlandofonsecad/anaconda3/lib/python3.11/site-packages (from FuzzyTM) (1.24.4)
+Requirement already satisfied: pandas in /home/orlandofonsecad/anaconda3/lib/python3.11/site-packages (from FuzzyTM) (2.2.2)
+Collecting scipy (from FuzzyTM)
+  Using cached scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Collecting pyfume (from FuzzyTM)
+  Using cached pyFUME-0.3.4-py3-none-any.whl.metadata (9.7 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/orlandofonsecad/anaconda3/lib/python3.11/site-packages (from pandas->FuzzyTM) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /home/orlandofonsecad/anaconda3/lib/python3.11/site-packages (from pandas->FuzzyTM) (2023.3.post1)
+Requirement already satisfied: tzdata>=2022.7 in /home/orlandofonsecad/anaconda3/lib/python3.11/site-packages (from pandas->FuzzyTM) (2023.3)
+Collecting scipy (from FuzzyTM)
+  Using cached scipy-1.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (58 kB)
+Collecting simpful==2.12.0 (from pyfume->FuzzyTM)
+  Using cached simpful-2.12.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting fst-pso==1.8.1 (from pyfume->FuzzyTM)
+  Using cached fst_pso-1.8.1-py3-none-any.whl
+Collecting pandas (from FuzzyTM)
+  Using cached pandas-1.5.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Collecting miniful (from fst-pso==1.8.1->pyfume->FuzzyTM)
+  Using cached miniful-0.0.6-py3-none-any.whl
+Requirement already satisfied: six>=1.5 in /home/orlandofonsecad/anaconda3/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas->FuzzyTM) (1.16.0)
+Using cached FuzzyTM-2.0.9-py3-none-any.whl (31 kB)
+Using cached pyFUME-0.3.4-py3-none-any.whl (60 kB)
+Using cached pandas-1.5.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.0 MB)
+Using cached scipy-1.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.1 MB)
+Using cached simpful-2.12.0-py3-none-any.whl (24 kB)
+Installing collected packages: scipy, simpful, pandas, miniful, fst-pso, pyfume, FuzzyTM
+  Attempting uninstall: pandas
+    Found existing installation: pandas 2.2.2
+    Uninstalling pandas-2.2.2:
+      Successfully uninstalled pandas-2.2.2
